@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="CS Legends — a visual encyclopedia of the people who shaped computing.">
+<meta name="theme-color" content="#0b1020"><title>CS Legends — The People Behind Computing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+<header class="topbar"><a class="brand" href="#"><span class="brand-mark">CS</span><span>CS <b>Legends</b><small>THE PEOPLE BEHIND COMPUTING</small></span></a>
+<nav><a href="#explore">Explore</a><a href="#fields">Fields</a><a href="#about">About</a></nav>
+<button id="themeToggle" class="icon-btn" aria-label="Toggle theme">☼</button></header>
+<main>
+<section class="hero">
+<div class="eyebrow"><span class="pulse"></span> A living encyclopedia of computing history</div>
+<h1>Every breakthrough<br><em>has a human story.</em></h1>
+<p>Meet the thinkers, builders, researchers and pioneers who shaped computer science — from mechanical computation to artificial intelligence.</p>
+<div class="hero-actions"><a class="primary-btn" href="#explore">Explore the legends <span>↗</span></a><a class="quiet-link" href="https://github.com/" target="_blank" rel="noopener">Open-source knowledge ↗</a></div>
+<div class="stats"><div><strong id="peopleCount">300+</strong><span>Personalities</span></div><div><strong id="fieldCount">20+</strong><span>Fields of computing</span></div><div><strong>4 eras</strong><span>Across computing history</span></div></div>
+</section>
+<section class="explore section" id="explore">
+<div class="section-head"><div><div class="eyebrow">THE DIRECTORY</div><h2>Find your pioneers.</h2><p>Search by name, contribution, discipline or popular title.</p></div><div class="result-count" id="resultCount">Loading profiles…</div></div>
+<div class="toolbar"><label class="searchbox"><span>⌕</span><input id="searchInput" type="search" placeholder="Search people, ideas, inventions…" autocomplete="off"></label>
+<select id="fieldFilter" aria-label="Filter by field"><option value="">All fields</option></select>
+<select id="titleFilter" aria-label="Filter by honorary title"><option value="">All profile types</option><option value="title">Honorary title holders</option></select>
+</div>
+<div class="chip-row" id="quickFields"></div>
+<div class="grid" id="peopleGrid" aria-live="polite"></div>
+<div class="empty" id="emptyState" hidden><div>⌕</div><h3>No legends found</h3><p>Try another name or clear your filters.</p><button class="secondary-btn" id="clearFilters">Clear filters</button></div>
+</section>
+<section class="fields section" id="fields"><div class="eyebrow">A WIDE LENS</div><h2>Computing is bigger<br>than code.</h2><div class="field-cloud" id="fieldCloud"></div></section>
+<section class="about section" id="about"><div class="about-copy"><div class="eyebrow">OUR PURPOSE</div><h2>History deserves<br><em>good citations.</em></h2><p>CS Legends is an educational project documenting the people behind ideas, inventions and institutions. We distinguish verified contributions from popular labels, acknowledge collaboration, and record portrait licences rather than copying images without permission.</p><a class="quiet-link" href="docs/EDITORIAL_POLICY.md">Read editorial policy ↗</a></div><div class="principles"><article><span>01</span><h3>Evidence first</h3><p>Prefer institutional archives, original papers, award citations and oral histories.</p></article><article><span>02</span><h3>Credit the creator</h3><p>Every portrait must have a verified licence and a complete attribution record.</p></article><article><span>03</span><h3>History is collaborative</h3><p>Breakthroughs are rarely the work of one person. We make context visible.</p></article></div></section>
+</main>
+<footer><a class="brand" href="#"><span class="brand-mark">CS</span><span>CS <b>Legends</b><small>THE PEOPLE BEHIND COMPUTING</small></span></a><p>Built to honour the people behind the progress. © 2026 CS Legends.</p><a href="README.md">Repository guide ↗</a></footer>
+<div class="modal-backdrop" id="modalBackdrop" hidden><section class="profile-modal" role="dialog" aria-modal="true" aria-labelledby="modalName"><button class="modal-close" id="modalClose" aria-label="Close">×</button><div id="modalContent"></div></section></div>
+<script src="app.js"></script>
+</body></html>
