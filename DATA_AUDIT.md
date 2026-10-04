@@ -1,0 +1,125 @@
+# Dataset audit
+
+- Unique profile records: **520**
+- Generated: 2026-10-04
+- Portrait files bundled: **0** (rights clearance required)
+- Country values independently verified: **0** (records currently marked research required)
+- Profiles with bespoke contribution summaries: **503**
+
+This is a curated discovery dataset and website starter. It deliberately does not claim every entry is a complete, fact-checked biography or has a cleared portrait. Before public launch, enrich profiles with person-specific institutional citations, verified dates/country, and licensed portrait credits.
+
+## Primary field labels
+
+- AI & Data Science: 1
+- AI & Fuzzy Logic: 1
+- AI & Scientific Computing: 1
+- AI & Society: 1
+- AI Ethics: 2
+- Algorithms & Optimization: 2
+- Algorithms & Software: 1
+- Algorithms & Theory: 4
+- Artificial Intelligence: 11
+- Artificial Intelligence & Machine Learning: 15
+- Coding Theory: 1
+- Compilers: 1
+- Compilers & Algorithms: 1
+- Compilers & Databases: 1
+- Computational Complexity: 1
+- Computational Science: 1
+- Computer Architecture: 8
+- Computer Engineering: 1
+- Computer Games: 2
+- Computer Graphics: 7
+- Computer Graphics, Vision & Multimedia: 27
+- Computer Science Education: 1
+- Computer Security: 1
+- Computer Systems: 1
+- Computer Vision: 5
+- Computer Vision & AI: 1
+- Computing & Engineering: 2
+- Computing & Geodesy: 1
+- Computing & Mathematics: 2
+- Computing Industry: 4
+- Computing Pioneers — Cross-disciplinary: 17
+- Cryptanalysis: 2
+- Cryptography: 12
+- Cryptography & Privacy: 1
+- Cryptography & Theory: 1
+- Cybernetics: 1
+- Cybersecurity: 9
+- Cybersecurity & Cryptography: 12
+- Data Mining: 2
+- Data Science: 3
+- Databases: 11
+- Databases & Data Management: 17
+- Databases & Knowledge Representation: 1
+- Design & Computing: 1
+- Display Technology: 1
+- Distributed Systems: 4
+- Early Computing: 2
+- Early Computing & Hardware: 17
+- Free Software: 1
+- Human-Computer Interaction: 14
+- Human-Computer Interaction & Design: 19
+- Indian Computer Science Pioneers: 20
+- Indian Computing: 12
+- Information Retrieval: 1
+- Information Theory: 2
+- Internet & Communications: 1
+- Internet & Email: 1
+- Internet & Networking: 2
+- Internet Architecture: 1
+- Internet Governance: 1
+- Internet History: 3
+- Internet Infrastructure: 1
+- Internet Standards: 1
+- Logic & Computation: 2
+- Logic & Mathematics: 4
+- Machine Learning: 11
+- Mathematics: 5
+- Mathematics, Logic & Information Theory: 5
+- Microprocessors: 3
+- Networking: 10
+- Networking, Internet & Web: 11
+- Neural Networks: 3
+- Numerical Computing: 1
+- Open Source: 1
+- Operating Systems: 6
+- Operating Systems & Distributed Computing: 6
+- Operating Systems & Languages: 1
+- Operating Systems & Open Source: 1
+- Personal Computing: 2
+- Programming & Computing History: 1
+- Programming & HCI: 1
+- Programming Languages: 23
+- Programming Languages & Compilers: 8
+- Programming Languages & Systems: 1
+- Quantum Computing: 1
+- Reinforcement Learning: 2
+- Robotics: 17
+- Robotics & AI: 2
+- Robotics & Autonomous Systems: 12
+- Robotics & Invention: 1
+- Robotics & Vision: 1
+- Semiconductors: 4
+- Software Engineering: 15
+- Software Engineering & Systems: 12
+- Software Industry: 2
+- Statistics: 1
+- Statistics & Computing: 1
+- Statistics & Data Science: 1
+- Supercomputing: 1
+- Systems & Languages: 1
+- Systems Performance: 1
+- Technology Publishing: 1
+- Theoretical Computer Science: 17
+- Theory of Computation & AI: 1
+- Ubiquitous Computing: 1
+- Virtual Reality: 1
+- Web & Internet: 1
+- Web & Knowledge: 1
+- Web & Search: 2
+- Web Architecture: 1
+- Web Browsers: 1
+- Wireless Communications: 2
+- Women in Computing: 8
